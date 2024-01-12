@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+body{
+    background-color:  #001428;
+    color: #FFFFFF;
+    
+}
+.logo{
+    font-size: 70px;
+    margin: 0;
+    
+}
+.conteiner{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  justify-content: space-around;
+
+   
+}
+.logodiv{
+    display: flex;
+    
+}
+div > h2{
+    color: rgb(255, 255, 255);
+    display: block;
+
+    margin: 0;
+   
+}
+#inv{
+    width: 350px;
+}
+.Distortion{
+font-family: 'Reem Kufi Ink', sans-serif;
+}
+.Chorus{
+    font-family: 'Reem Kufi Ink', sans-serif
+}
+.Reverb{
+    font-family: 'Reem Kufi Ink', sans-serif
+}
+.Delay{
+    font-family: 'Reem Kufi Ink', sans-serif
+}
+div > a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.Chorus:hover, .Distortion:hover, .Delay:hover{
+    color:#FFD700 ;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+#logoid:hover{
+    color: #8B0000;
+    
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
