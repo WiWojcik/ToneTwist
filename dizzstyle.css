@@ -128,7 +128,21 @@ div > a{
     right: 0;
     bottom: 0;
     top: 80px;
-    width: 100%;
+    width: 126%;
     z-index: -1;
-  
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff; /* Kolor tekstu linków */
+    font-family: 'Montserrat', sans-serif  ;
+}
+
+nav a {
+    text-decoration: none; /* Usunięcie podkreślenia z linków */
+    color: inherit; /* Dziedziczenie koloru tekstu od rodzica (nav) */
+    margin-right: 10px;
+}
+
